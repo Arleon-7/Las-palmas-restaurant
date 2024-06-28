@@ -26,14 +26,14 @@ export function Header() {
   const [currentItem, setCurrentItem] = useState(4);
   const [carrito, setCarrito] = useState([]);
   const [productos, setProductos] = useState([
-    { id: 1, img: pla1, titulo: 'Arroz Trifásico Gourmet', precio: '$35.500' },
-    { id: 2, img: pla2, titulo: 'Ensalada de la Casa', precio: '$20.000' },
-    { id: 3, img: pla3, titulo: 'Papas Paradisíacas', precio: '$42.500' },
-    { id: 4, img: pla4, titulo: 'Res Supremo', precio: '$32.200' },
-    { id: 5, img: pla5, titulo: 'Res en Salsa Verde', precio: '$30.000' },
-    { id: 6, img: pla6, titulo: 'Cordero en Salsa Dorada', precio: '$57.000' },
-    { id: 7, img: pla7, titulo: 'Mar y Tierra', precio: '$31.000' },
-    { id: 8, img: pla_8, titulo: 'Lomo a la Jardinera', precio: '$36.200' }
+    { id: 1, img: pla1, plato: 'Arroz Trifásico Gourmet', precio: '$35.500' },
+    { id: 2, img: pla2, plato: 'Ensalada de la Casa', precio: '$20.000' },
+    { id: 3, img: pla3, plato: 'Papas Paradisíacas', precio: '$42.500' },
+    { id: 4, img: pla4, plato: 'Res Supremo', precio: '$32.200' },
+    { id: 5, img: pla5, plato: 'Res en Salsa Verde', precio: '$30.000' },
+    { id: 6, img: pla6, plato: 'Cordero en Salsa Dorada', precio: '$57.000' },
+    { id: 7, img: pla7, plato: 'Mar y Tierra', precio: '$31.000' },
+    { id: 8, img: pla_8, plato: 'Lomo a la Jardinera', precio: '$36.200' }
   ]);
   const verMas = () => {
     setCurrentItem(currentItem + 4);
